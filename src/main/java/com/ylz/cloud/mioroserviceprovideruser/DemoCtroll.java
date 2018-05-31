@@ -17,6 +17,8 @@ public class DemoCtroll {
 
     @GetMapping("/hello")
     public String hello(){
+        System.out.println("bbb");
         return "hello world";
+
     }
 }
